@@ -27,7 +27,9 @@ const PlaceOrder = () => {
       </div>
 
       {/* ----------------Right Side---------------- */}
-      
+      <div>
+        
+      </div>
     </div>
   )
 }
