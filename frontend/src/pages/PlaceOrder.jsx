@@ -1,5 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
+import CartTotal from '../components/CartTotal'
+import { assets } from '../assets/assets'
 
 const PlaceOrder = () => {
   return (
@@ -27,8 +29,13 @@ const PlaceOrder = () => {
       </div>
 
       {/* ----------------Right Side---------------- */}
-      <div>
-        
+      <div className='mt-8'>
+        <div className='mt-8 min-w-80'>
+          <CartTotal/> 
+        </div>
+        <div className='mt-12'>
+        <Title text1={"PAYMENT"} text2={"METHOD"}/>
+        </div>
       </div>
     </div>
   )
