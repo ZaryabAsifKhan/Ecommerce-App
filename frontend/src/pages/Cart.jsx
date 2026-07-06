@@ -53,7 +53,7 @@ const Cart = () => {
                   </div>
 
                 </div>
-                <input onChange={(e)=> e.target.value === '' || e.targrt.value === '0' ? null : updateQuantity(item._id, item.size, Number(e.target.value))} className=' border border-gray-300 max-w-10 sm:max-w-20 px-1 sm:px-2 py-1' type="number" min={1} defaultValue={item.quantity}  />
+                <input onChange={(e)=> e.target.value === '' || e.target.value === '0' ? null : updateQuantity(item._id, item.size, Number(e.target.value))} className=' border border-gray-300 max-w-10 sm:max-w-20 px-1 sm:px-2 py-1' type="number" min={1} defaultValue={item.quantity}  />
                 <img onClick={()=>updateQuantity(item._id,item.size,0)} className='w-4 mr-4 sm:w-5 cursor-pointer' src={assets.bin_icon} alt="bin" />
               </div>
             )
@@ -68,7 +68,7 @@ const Cart = () => {
         <div className='w-full sm:w-112.5'>
           <CartTotal/>
           <div className='w-full text-end'>
-            <button onClick={()=> navigate('/place-order')} className='bg-black text-white text-sm my-8 px-8 py-3 hover:bg-gray-800 '>PROCEED TO CHECKOUT</button>
+            <button onClick={()=> navigate('/place-order')} className='bg-black text-white text-sm my-8 px-8 py-3 hover:bg-gray-800 cursor-pointer '>PROCEED TO CHECKOUT</button>
           </div>
         </div>
       </div>
