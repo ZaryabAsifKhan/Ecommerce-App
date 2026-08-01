@@ -33,7 +33,7 @@ const About = () => {
           <p className='text-gray-600'>Enjoy a hassle-free shopping experience from browse to doorstep. With easy navigation, secure checkout, and fast, reliable delivery, getting your favorite fashion essentials has never been easier.</p>
         </div>
          <div className='border border-gray-500 px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-          <b>Exeptional Customer Support:</b>
+          <b>Exeptional Customer Service:</b>
           <p className='text-gray-600'>Your satisfaction is at the heart of what we do. Our dedicated support team is ready to assist you with any questions, size guidance, or order updates to ensure a seamless experience every time.</p>
         </div>
       </div>
