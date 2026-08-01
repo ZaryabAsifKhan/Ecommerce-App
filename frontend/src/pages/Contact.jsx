@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
+import NewsletterBox from '../components/NewsletterBox'
 
 const Contact = () => {
   return (
@@ -18,9 +19,10 @@ const Contact = () => {
             <p className='font-semibold text-xl text-gray-600'> Careers At Finisse </p>
             <p className='text-gray-500'>Learn more about our job openings.</p>
             <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore</button>
-            <p></p>
           </div>
       </div>
+      
+      <NewsletterBox/>
     </div>
   )
 }
