@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../components/Title'
+import NewsletterBox from '../components/NewsletterBox'
 import {assets} from '../assets/assets'
 
 const About = () => {
@@ -23,8 +24,21 @@ const About = () => {
       </div>
 
       <div className='flex flex-col md:flex-row text-sm mb-20'>
-        
+        <div className='border border-gray-500 px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+          <b>Quality Assurance:</b>
+          <p className='text-gray-600'>At FINESSE, quality isn't just a standard it's our promise. From sourcing high-grade materials to inspecting the final finish, we ensure every piece meets the highest standards of durability, elegance, and comfort.</p>
+        </div>
+         <div className='border border-gray-500  px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+          <b>Convenience:</b>
+          <p className='text-gray-600'>Enjoy a hassle-free shopping experience from browse to doorstep. With easy navigation, secure checkout, and fast, reliable delivery, getting your favorite fashion essentials has never been easier.</p>
+        </div>
+         <div className='border border-gray-500 px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+          <b>Exeptional Customer Support:</b>
+          <p className='text-gray-600'>Your satisfaction is at the heart of what we do. Our dedicated support team is ready to assist you with any questions, size guidance, or order updates to ensure a seamless experience every time.</p>
+        </div>
       </div>
+
+      <NewsletterBox/>
 
     </div>
   )
